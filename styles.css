@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: auto;
+}
+
+.admin-product-form-container form {
+    width: 100%;
+    max-width: 500rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+}
+
+.admin-product-form-container h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.admin-product-form-container form .box {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+    margin: 1rem auto;
+    background-color: antiquewhite;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.btn:hover {}
+
+.msg {
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: brown;
+    background-color: azure;
+    margin-bottom: 2rem;
+}
+
+.show-product {
+    margin: 2rem 0;
+    overflow-y: scroll;
+}
+
+.show-product .table {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.show-product .table thead {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: azure;
+}
+
+.show-product .table th {
+    padding: 1rem;
+}
+
+.show-product .table td {
+    padding: 1rem;
+}
+
+.show-product .table .btn:first-child {
+    margin-top: 0;
+}
+
+.show-product .table .btn:last-child {
+    background-color: crimson;
+}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:450px) {}
